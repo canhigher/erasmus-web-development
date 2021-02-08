@@ -1,0 +1,112 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
+a {
+
+  transition: background 0.5s ease-in;
+}
+.body {
+  margin:20px;
+}
+.header {
+  display: flex;
+  padding: 20px;
+  background: rgb(50,148,194);
+
+
+}
+
+.navtop {
+
+  overflow: hidden;
+  background-color:  rgb(6, 33, 46);
+
+}
+
+.navtop a {
+  display: block;
+  float: left;
+  color: rgb(230, 240, 245);
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 14px;
+
+}
+
+.navtop a:hover {
+  background-color: rgb(50, 148, 194);
+  color: rgb(230, 240, 245);
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  font-size: 15px;
+
+}
+
+.footer {
+  overflow: hidden;
+  background-color:  rgb(6, 33, 46);
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer a {
+  font-size: 14px;
+  float: right;
+  text-decoration: none;
+  color: rgb(230, 240, 245);
+  text-align: center;
+  padding: 40px 18px;
+
+}
+
+.footer a:hover {
+  font-size: 15px;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  background-color: rgb(50, 148, 194);
+  color: rgb(230, 240, 245);
+}
+
+.content {
+  width: 100%;
+  padding: 20px;
+}
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.img {
+  width: 100%;
+  padding: 10px;
+}

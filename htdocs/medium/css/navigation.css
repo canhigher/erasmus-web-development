@@ -1,0 +1,60 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+
+  padding: 30px;
+  background: rgb(50,148,194);
+}
+
+.navtop {
+  overflow: hidden;
+  font: Arial;
+  background-color:  rgb(6, 33, 46);
+}
+
+.navtop a {
+  float: left;
+  color: rgb(230, 240, 245);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navtop a:hover {
+  background-color: rgb(50, 148, 194);
+  color: rgb(230, 240, 245);
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.footer {
+  overflow: hidden;
+  font: Arial;
+  background-color:  rgb(6, 33, 46);
+}
+
+.footer a {
+  font-size: 18px;
+  float: right;
+  text-decoration: none;
+  color: rgb(230, 240, 245);
+  text-align: center;
+  padding: 40px 18px;
+}
+
+.footer a:hover {
+  font-size: 20px;
+  text-decoration: underline;
+  background-color: rgb(50, 148, 194);
+  color: rgb(230, 240, 245);
+  text-decoration: underline;
+}
